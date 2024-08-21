@@ -11,12 +11,10 @@ const elements = [
 $("body").append.apply($("body"), elements);
 
 let count = 0;
+function updateCounter() {
+  count++;
+  $("#count").text(`${count} clicks on the button`);
+  console.log(count);
+}
 
-$("button").on(
-  "click",
-  _.debounce(function () {
-    count++;
-    $("#count").text(`${count} clicks on the button`);
-    console.log(count);
-  }, 300)
-);
+$("button").on("click", _.debounce(updateCounter, 300));
