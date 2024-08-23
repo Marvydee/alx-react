@@ -22,6 +22,6 @@ module.exports = {
     ],
   },
   performance: {
-    maxAssetSize: 1000000, // 1 MB limit for each asset
+    maxAssetSize: 1000000,
   },
 };
