@@ -1,0 +1,38 @@
+.App {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  color: #e0354b;
+  border-bottom: 4px solid #e0354b;
+}
+
+.App-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.App-body {
+  height: 50%;
+  border-bottom: 0.3rem solid #e0354b;
+}
+
+p {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.App-footer {
+  bottom: 0;
+  top: 0;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
