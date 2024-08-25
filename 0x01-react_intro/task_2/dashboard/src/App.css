@@ -1,0 +1,45 @@
+.App {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  color: #e0354b;
+  border-bottom: 4px solid #e0354b;
+}
+
+.App-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.App-body {
+  height: 70%;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  border-bottom: 0.3rem solid #e0354b;
+}
+
+p {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+form {
+  margin-left: 3rem;
+  display: flex;
+  gap: 10px;
+}
+
+.App-footer {
+  bottom: 0;
+  top: 0;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
