@@ -6,7 +6,7 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
   },
-  "name": "task_5",
+  "name": "dashboard",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
