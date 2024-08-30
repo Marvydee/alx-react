@@ -1,0 +1,17 @@
+.Notifications {
+  border: 2px solid crimson;
+  font-size: 1.1rem;
+}
+
+li[data-priority="default"] {
+  color: blue;
+}
+
+li[data-priority="urgent"] {
+  color: red;
+}
+
+p {
+  margin-left: 5px;
+  font-weight: bold;
+}
