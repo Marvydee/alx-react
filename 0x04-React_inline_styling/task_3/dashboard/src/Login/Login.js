@@ -31,6 +31,10 @@ const styles = StyleSheet.create({
     fontSize: "1rem",
     padding: "2em",
     height: "45%",
+    "@media (max-width: 900px)": {
+      display: "flex",
+      flexDirection: "column",
+    },
   },
 
   input: {
