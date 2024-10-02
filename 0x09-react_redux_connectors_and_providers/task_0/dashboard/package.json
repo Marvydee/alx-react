@@ -92,6 +92,7 @@
     "prop-types": "^15.8.1",
     "punycode": "^2.3.1",
     "randombytes": "^2.1.0",
+    "react-redux": "^9.1.2",
     "rechoir": "^0.8.0",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
